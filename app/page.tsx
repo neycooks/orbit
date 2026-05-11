@@ -488,7 +488,7 @@ export default function Home() {
                         >
                             api docs
                         </h2>
-                        <p style={{ fontSize: '1.0625rem', color: '#555' }}>here's what you can hit</p>
+                        <p style={{ fontSize: '1.0625rem', color: '#555' }}>here is what you can hit</p>
                     </div>
                     <div style={{ background: '#141414', border: '1px solid #1e1e1e', borderRadius: 14, overflow: 'hidden' }}>
                         <table style={{ width: '100%', borderCollapse: 'collapse' }}>

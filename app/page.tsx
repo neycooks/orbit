@@ -443,7 +443,6 @@ export default function Home() {
                                 <div style={{ textAlign: 'center', padding: '24px 0' }}>
                                     <p style={{ color: '#b86060', fontWeight: 500 }}>
                                         something went wrong. check your input and try again
-                                </p>
                                     </p>
                                 </div>
                             )}

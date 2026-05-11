@@ -30,7 +30,7 @@ export default function Home() {
         setShowResults(false);
         const query = input || 'mbappe';
         try {
-            const res = await fetch(`https://orbit.is-a.dev/players?${query}`, {
+            const res = await fetch(`https://orbit.fifakitzofficil.workers.dev/players?${query}`, {
                 headers: { Accept: 'application/json' },
             });
             if (!res.ok) throw new Error();
@@ -220,7 +220,7 @@ export default function Home() {
                             <pre>
                                 <span style={{ color: '#9080d8' }}>curl</span>{' '}
                                 <span style={{ color: '#5aab7a' }}>-X GET</span>{' '}
-                                <span style={{ color: '#c09040' }}>&quot;https://orbit.is-a.dev/players?ovr&gt;90&quot;</span>
+                                <span style={{ color: '#c09040' }}>&quot;https://orbit.fifakitzofficil.workers.dev/players?ovr&gt;90&quot;</span>
                             </pre>
                             <div style={{ marginTop: 20, paddingTop: 20, borderTop: '1px solid #1e1e1e' }}>
                                 <p style={{ color: '#505050', marginBottom: 8 }}># response</p>
